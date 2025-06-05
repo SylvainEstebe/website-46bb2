@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Sylvain
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Sylv
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Sylvain
+last_name: Estebe
 
 # Status emoji
 status:
@@ -20,167 +20,102 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Research Assistant in Computational Cognitive Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Center for Humanities Computing
+    url: https://chc.au.dk/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:sylvain.estebe@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/sylvain_es
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/SylvainEstebe
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/sylvain-estebe-97485a118/
+  - icon: brands/bsky
+    url: https://bsky.app/profile/sylvainestebe.bsky.social
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
-
+  - Computational cognitive science
+  - Data science
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Master's Degree in Cognitive Science
+    institution: Aarhus University, Denmark
+    date_start: 2023-09-01
+    date_end: 2025-06-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Focus on cognitive modeling, decision-making, and artificial intelligence. Currently working on churn prediction using Bayesian and cognitively-inspired models. Grade: B (ECTS scale).
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Bachelor’s in Mathematics and Computer Science Applied to Humanities and Social Sciences
+    institution: University of Lorraine, France
+    date_start: 2020-02-01
+    date_end: 2023-02-28
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Emphasis on interdisciplinary computing, combining programming, mathematics, and cognitive science. Grade: B (ECTS scale).
+
+  - area: Diploma of Access to University Studies – Sciences
+    institution: University of Montpellier, France
+    date_start: 2019-02-01
+    date_end: 2020-02-28
+    summary: |
+      Completed with mention "Good". Foundation in scientific reasoning and preparation for university-level studies.
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+  - position: Data Scientist (Industry Thesis)
+    company_name: Norlys, Aarhus – Denmark
+    date_start: 2024-06-01
+    date_end: 2025-06-30
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Applied unsupervised learning and clustering to identify customer behavior patterns.
+      - Developed churn prediction models using probabilistic and cognitive approaches.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+  - position: Research Intern
+    company_name: ENS – Département d'Études Cognitives, Paris – France
+    date_start: 2024-12-01
+    date_end: 2025-04-30
+    summary: |2-
+      - Used NLP techniques (e.g. RAG, Bag-of-Words) on large literary corpora.
+      - Quantified and visualized cultural evolution of love in French literature (1500–1950).
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - position: Research Intern
+    company_name: University of Oslo – Norway
+    date_start: 2023-09-01
+    date_end: 2024-06-30
+    summary: |2-
+      - Combined motion capture, eye-tracking, and EMG to study effort in pianist performance.
+      - Analyzed multimodal data to explore cognitive-physical load interactions.
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+  - position: Research Intern
+    company_name: University of Oslo – Norway
+    date_start: 2022-05-01
+    date_end: 2022-07-31
+    summary: |2-
+      - Designed and ran experiments on emotion and music using eye-tracking.
+      - Analyzed pupillometry data and reviewed literature on music-induced emotion.
+
+  - position: Music Producer
+    company_name: Independent
+    date_start: 2010-01-01
+    date_end: 2021-12-31
+    summary: |2-
+      - Composed and produced award-winning music, including 4 gold and 1 platinum records.
+      - Collaborated with artists and studios to bring creative visions to life.
+
+---
+widget: about
+headless: true
+weight: 1
+title: About Me
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I’m Sylvain Estebe, a researcher in computational cognitive science. I study how people make decisions over time, especially under uncertainty, using cognitive models, causal inference, and behavioral data. With experience in both academia and industry, I aim to bridge theory and real-world applications.
