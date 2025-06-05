@@ -110,11 +110,6 @@ work:
       - Collaborated with artists and studios to bring creative visions to life.
 
 ---
-widget: about
-headless: true
-weight: 1
-title: About Me
----
 
 ## About Me
 
