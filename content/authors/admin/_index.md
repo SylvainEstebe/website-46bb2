@@ -39,9 +39,10 @@ profiles:
     url: https://github.com/SylvainEstebe
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/sylvain-estebe-97485a118/
-  - icon: brands/bsky
+  - icon: bluesky
     url: https://bsky.app/profile/sylvainestebe.bsky.social
-
+    label: Bluesky
+    
 interests:
   - Artificial Intelligence
   - Computational cognitive science

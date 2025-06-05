@@ -6,26 +6,37 @@ weight: 2
 summary: A curated gallery of my photographic work.
 ---
 
-## 📷 Gallery
+## 📷 Gallery with Lightbox
 
 <div class="photo-gallery">
 
-  <div class="photo-item">
-    <img src="/uploads/photo/forest.jpg" alt="Forest" />
-    <p>“Silence in the woods” – 2024</p>
-  </div>
-
-  <div class="photo-item">
-    <img src="/uploads/photo/cityscape.jpg" alt="Cityscape" />
-    <p>“Paris morning haze” – 2023</p>
-  </div>
-
-  <div class="photo-item">
-    <img src="/uploads/photo/portrait.jpg" alt="Portrait" />
-    <p>Studio session – 2023</p>
-  </div>
+  <a href="#img1">
+    <img src="/uploads/DSC08426-Enhanced-SR.jpg" alt="Forest" />
+  </a>
+  <a href="#img2">
+    <img src="/uploads/DSC08429-Enhanced-SR.jpg" alt="City" />
+  </a>
+  <a href="#img3">
+    <img src="/uploads/DSC09046.jpg" alt="Portrait" />
+  </a>
 
 </div>
+
+<!-- Lightbox Modals -->
+<article id="img1" class="lightbox">
+  <a href="#!" class="close"></a>
+  <img src="/uploads/DSC08426-Enhanced-SR.jpg" alt="Forest" />
+</article>
+
+<article id="img2" class="lightbox">
+  <a href="#!" class="close"></a>
+  <img src="/uploads/DSC08429-Enhanced-SR.jpg" alt="City" />
+</article>
+
+<article id="img3" class="lightbox">
+  <a href="#!" class="close"></a>
+  <img src="/uploads/DSC09046.jpg" alt="Portrait" />
+</article>
 
 <style>
 .photo-gallery {
@@ -35,16 +46,40 @@ summary: A curated gallery of my photographic work.
   justify-content: center;
 }
 
-.photo-item {
-  flex: 1 1 300px;
-  max-width: 300px;
-  text-align: center;
-}
-
-.photo-item img {
-  width: 100%;
+.photo-gallery img {
+  width: 300px;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: zoom-in;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  padding-top: 5%;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 80vh;
+}
+
+.lightbox:target {
+  display: block;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
 }
 </style>
