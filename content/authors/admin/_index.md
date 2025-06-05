@@ -109,6 +109,13 @@ work:
       - Composed and produced award-winning music, including 4 gold and 1 platinum records.
       - Collaborated with artists and studios to bring creative visions to life.
 
+---
+widget: about
+headless: true
+weight: 1
+title: About Me
+---
+
 ## About Me
 
 I’m Sylvain Estebe, a researcher in computational cognitive science. I study how people make decisions over time, especially under uncertainty, using cognitive models, causal inference, and behavioral data. With experience in both academia and industry, I aim to bridge theory and real-world applications.
